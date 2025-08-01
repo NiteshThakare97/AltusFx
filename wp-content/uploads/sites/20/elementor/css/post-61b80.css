@@ -4816,7 +4816,8 @@ svg) {
 
 #feature-platf {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 30px;
 }
 
 #mobile1,
@@ -5115,6 +5116,7 @@ svg) {
     }
     #feature-platf {
         width: 100%;
+        justify-content: center;
     }
     #mobile1 img,
     #mobile2 img {
@@ -5180,6 +5182,10 @@ svg) {
     }
     #feature-platf {
         width: 100%;
+        gap: 16px;
+    }
+    #platform {
+        width: 30%;
     }
     #mobile1 img,
     #mobile2 img {
