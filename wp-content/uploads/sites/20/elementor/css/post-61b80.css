@@ -747,7 +747,8 @@ body:not(.rtl) .elementor-6 .elementor-element.elementor-element-5fea715 .elemen
     --container-widget-flex-grow: 1;
     --container-widget-align-self: stretch;
     --flex-wrap-mobile: wrap;
-    --justify-content: space-between;
+    /* --justify-content: space-between; */
+    --justify-content: center;
     --gap: 30px 30px;
     --flex-wrap: wrap;
     --background-transition: 0.3s;
@@ -800,8 +801,8 @@ body:not(.rtl) .elementor-6 .elementor-element.elementor-element-5fea715 .elemen
 
 .elementor-6 .elementor-element.elementor-element-82e9313 {
     width: var(--container-widget-width, 23.25%);
-    max-width: 23.25%;
-    --container-widget-width: 23.25%;
+    max-width: 28%;
+    --container-widget-width: 28%;
     --container-widget-flex-grow: 0;
 }
 
@@ -918,8 +919,8 @@ svg) {
 
 .elementor-6 .elementor-element.elementor-element-fd9f91f {
     width: var(--container-widget-width, 23.25%);
-    max-width: 23.25%;
-    --container-widget-width: 23.25%;
+    max-width: 28%;
+    --container-widget-width: 28%;
     --container-widget-flex-grow: 0;
 }
 
@@ -1036,8 +1037,8 @@ svg) {
 
 .elementor-6 .elementor-element.elementor-element-c46250e {
     width: var(--container-widget-width, 23.25%);
-    max-width: 23.25%;
-    --container-widget-width: 23.25%;
+    max-width: 28%;
+    --container-widget-width: 28%;
     --container-widget-flex-grow: 0;
 }
 
@@ -1154,8 +1155,8 @@ svg) {
 
 .elementor-6 .elementor-element.elementor-element-84cc2e5 {
     width: var(--container-widget-width, 23.25%);
-    max-width: 23.25%;
-    --container-widget-width: 23.25%;
+    max-width: 28%;
+    --container-widget-width: 28%;
     --container-widget-flex-grow: 0;
 }
 
@@ -1272,8 +1273,8 @@ svg) {
 
 .elementor-6 .elementor-element.elementor-element-ba13b8d {
     width: var(--container-widget-width, 23.25%);
-    max-width: 23.25%;
-    --container-widget-width: 23.25%;
+    max-width: 28%;
+    --container-widget-width: 28%;
     --container-widget-flex-grow: 0;
 }
 
@@ -4742,10 +4743,14 @@ svg) {
 
 .elementor-element-1b0c009 .card {
     /* width: 200px; */
-    height: 280px;
+    height: 380px;
     margin: auto;
     perspective: 1000px;
     cursor: pointer;
+}
+
+.elementor-element-1b0c009 .card ul li {
+    list-style: disc;
 }
 
 .elementor-element-1b0c009 .card-inner {
