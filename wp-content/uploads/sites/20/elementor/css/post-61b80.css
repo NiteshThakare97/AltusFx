@@ -5062,6 +5062,10 @@ svg) {
     display: none;
 }
 
+#privacy-policy {
+    padding-top: 3rem;
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     #homesec7-1 {
         ul li a {
