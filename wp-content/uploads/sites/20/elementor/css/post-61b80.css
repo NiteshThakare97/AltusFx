@@ -5067,6 +5067,65 @@ svg) {
     padding-top: 3rem;
 }
 
+#tradingexpert-icon {
+    text-align: end;
+    margin-bottom: -14px;
+}
+
+#tradingexpert-icon img {
+    width: 180px;
+    padding-right: 18px;
+}
+
+#tradingexpert .elementor-icon-list-icon i {
+    font-size: 24px;
+    color: #03aa71;
+}
+
+#tradingexpert h5 {
+    font-size: 19px;
+}
+
+#tradingexpert .elementor-element-35ebfe8 {
+    padding-right: 6px;
+}
+
+#tradingexpert .elementor-element-a132f88 img {
+    width: 93%;
+}
+
+#tradingexpert .e-con-inner {
+    align-items: end;
+}
+
+#tradingexpert {
+    --padding-top: 3em;
+}
+
+#payment {
+    background-image: url(../../../../../../images/payment-gateway/Sec03BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    --padding-top: 6em;
+    --padding-bottom: 6em;
+    --justify-content: end;
+}
+
+#payment h3 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+#payment-gateway {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 18px;
+}
+
+#payment-gateway:nth-child(2) {
+    padding-top: 18px;
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     #homesec7-1 {
         ul li a {
