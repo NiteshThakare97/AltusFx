@@ -3309,6 +3309,54 @@ svg) {
     color: var(--e-global-color-secondary);
 }
 
+#trading-img {
+    position: absolute;
+    right: -11%;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+#start-trading .elementor-element-18a50f4-1 h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 18px;
+}
+
+#start-trading .elementor-element-18a50f4-1 p {
+    font-size: 14px;
+}
+
+#start-trading .e-con-inner {
+    align-items: flex-start;
+    text-align: end;
+}
+
+#start-trading {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    background: #fff;
+}
+
+#start-trading .elementor-element-e38e58a .elementor-icon-box-icon:hover {
+    cursor: pointer;
+}
+
+#start-trading .elementor-element-77864be .elementor-icon-box-icon:hover img {
+    content: url(../../../../../../images/15/Icon/Green/01.png);
+}
+
+#start-trading .elementor-element-3e2848d .elementor-icon-box-icon:hover img {
+    content: url(../../../../../../images/15/Icon/Green/02.png);
+}
+
+#start-trading .elementor-element-195c6b5-21 .elementor-icon-box-icon:hover img {
+    content: url(../../../../../../images/15/Icon/Green/03.png);
+}
+
+#start-trading .elementor-element-195c6b5 .elementor-icon-box-icon:hover img {
+    content: url(../../../../../../images/15/Icon/Green/04.png);
+}
+
 @media(min-width:768px) {
     .elementor-6 .elementor-element.elementor-element-01c91c2 {
         --width: 33%;
@@ -3342,6 +3390,10 @@ svg) {
     }
     .elementor-6 .elementor-element.elementor-element-756257a {
         --width: 37%;
+    }
+    #start-trading .elementor-element-756257a {
+        --width: 50%;
+        text-align: end;
     }
     .elementor-6 .elementor-element.elementor-element-ec32cf3 {
         --width: 100%;
@@ -5126,6 +5178,10 @@ svg) {
     padding-top: 18px;
 }
 
+#start-trading .elementor-widget-icon-box.elementor-vertical-align-middle .elementor-icon-box-wrapper {
+    padding-top: 0px;
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     #homesec7-1 {
         ul li a {
@@ -5181,9 +5237,6 @@ svg) {
     .elementor-element.elementor-element-7482d7b h3 {
         font-size: 2.2rem;
     }
-    .elementor-element-1b0c009 .card {
-        height: 245px;
-    }
     .elementor-6 .elementor-element.elementor-element-b851410 {
         padding-right: 0%;
     }
@@ -5206,6 +5259,42 @@ svg) {
     }
     #mobile2 img {
         margin-top: 125px;
+    }
+    #tradingexpert .elementor-element-a132f88 img {
+        width: 300px;
+    }
+    #tradingexpert .elementor-element-a132f88 {
+        text-align: center;
+    }
+    #payment {
+        --padding-top: 2em;
+        --padding-bottom: 2em;
+        --align-items: end;
+    }
+    #payment .elementor-element-0bc4953 {
+        width: 60%;
+    }
+    #payment h3 {
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+    #payment-gateway a {
+        padding-right: 10px;
+    }
+    #payment-gateway {
+        padding-right: 0%;
+    }
+    #tradingexpert {
+        --padding-bottom: 3em;
+    }
+    #trading-img {
+        right: 0%;
+        padding-left: 36%;
+        top: 659px;
+    }
+    #start-trading {
+        padding-top: 1rem;
+        padding-bottom: 22rem;
     }
 }
 
@@ -5280,7 +5369,7 @@ svg) {
         left: 10%;
     }
     .elementor-element-1b0c009 .card {
-        height: 215px;
+        height: 330px;
     }
     .elementor-6 .elementor-element.elementor-element-7482d7b {
         --container-widget-width: 100%;
@@ -5315,5 +5404,31 @@ svg) {
     }
     #bg-img-mob {
         display: block;
+    }
+    #payment {
+        background-position: bottom;
+    }
+    #payment h3 {
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+    #payment-gateway {
+        padding-right: 0px;
+    }
+    #payment-gateway a {
+        padding-right: 5px;
+    }
+    #start-trading .elementor-element-18a50f4-1 h3 {
+        font-size: 32px;
+        margin-top: 0px;
+    }
+    #start-trading {
+        padding-top: 0rem;
+        padding-bottom: 18rem;
+    }
+    #trading-img {
+        right: -5%;
+        padding-left: 0%;
+        top: 60rem;
     }
 }
