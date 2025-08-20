@@ -1,6 +1,6 @@
 .elementor-596 .elementor-element.elementor-element-5d2f6f5 {
     --display: flex;
-    --min-height: 50vh;
+    --min-height: 327px;
     --flex-direction: column;
     --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
     --container-widget-height: initial;
@@ -15,19 +15,9 @@
 
 .elementor-596 .elementor-element.elementor-element-5d2f6f5:not(.elementor-motion-effects-element-type-background),
 .elementor-596 .elementor-element.elementor-element-5d2f6f5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2023/03/About-Us-Image-2.jpg");
-    background-position: center center;
+    background-image: url("../../../../../../images/12/Contact.png");
     background-size: cover;
-}
-
-.elementor-596 .elementor-element.elementor-element-5d2f6f5::before,
-.elementor-596 .elementor-element.elementor-element-5d2f6f5>.elementor-background-video-container::before,
-.elementor-596 .elementor-element.elementor-element-5d2f6f5>.e-con-inner>.elementor-background-video-container::before,
-.elementor-596 .elementor-element.elementor-element-5d2f6f5>.elementor-background-slideshow::before,
-.elementor-596 .elementor-element.elementor-element-5d2f6f5>.e-con-inner>.elementor-background-slideshow::before,
-.elementor-596 .elementor-element.elementor-element-5d2f6f5>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
-    background-color: var(--e-global-color-primary);
-    --background-overlay: '';
+    background-repeat: no-repeat;
 }
 
 .elementor-596 .elementor-element.elementor-element-5d2f6f5,
@@ -41,6 +31,7 @@
 
 .elementor-596 .elementor-element.elementor-element-4ba7b1d .elementor-heading-title {
     color: var(--e-global-color-accent);
+    font-size: 54px;
 }
 
 .elementor-596 .elementor-element.elementor-element-50a4728 {
@@ -251,17 +242,29 @@
     }
 }
 
-@media(max-width:1024px) and (min-width:768px) {
+@media(max-width:1024px) and (min-width:600px) {
     .elementor-596 .elementor-element.elementor-element-3262f6c {
         --width: 100%;
     }
     .elementor-596 .elementor-element.elementor-element-62447ca {
         --width: 100%;
     }
+    .elementor-596 .elementor-element.elementor-element-5d2f6f5 {
+        --min-height: 197px;
+    }
+    .elementor-596 .elementor-element.elementor-element-4ba7b1d .elementor-heading-title {
+        font-size: 36px;
+    }
 }
 
-@media(max-width:768px) {
+@media(max-width: 600px) {
     .elementor-596 .elementor-element.elementor-element-0627d83 {
         --padding-bottom: 4em;
+    }
+    .elementor-596 .elementor-element.elementor-element-5d2f6f5 {
+        --min-height: 94px;
+    }
+    .elementor-596 .elementor-element.elementor-element-4ba7b1d .elementor-heading-title {
+        font-size: 20px;
     }
 }
