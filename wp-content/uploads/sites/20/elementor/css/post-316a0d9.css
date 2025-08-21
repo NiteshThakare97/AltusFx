@@ -3629,6 +3629,7 @@ main p:last-child {
     .elementor-316 .elementor-element.elementor-element-2ea3a5f .elementor-widget-container {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 8px;
     }
     .elementor-316 .elementor-element.elementor-element-caf793f {
         --min-height: 100px;
