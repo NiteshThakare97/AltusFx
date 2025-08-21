@@ -4129,7 +4129,7 @@ svg) {
         line-height: var(--e-global-typography-89f5db8-line-height);
     }
     .elementor-6 .elementor-element.elementor-element-4e1cd73 {
-        --margin-top: -3em;
+        --margin-top: 1em;
         --margin-bottom: 0em;
         --margin-left: 0em;
         --margin-right: 0em;
@@ -4763,7 +4763,9 @@ svg) {
     font-size: 38px;
 }
 
-.elementor-element-246886a .elementor-button-icon {
+.elementor-element-246886a .elementor-button-icon,
+#herobanner-btn .elementor-button-icon,
+#herobanner-btn1 .elementor-button-icon {
     font-weight: 100;
     background-color: #03aa71;
     width: 40px;
@@ -5182,6 +5184,49 @@ svg) {
     padding-top: 0px;
 }
 
+#carouselExampleAutoplaying .carousel-control-next,
+#carouselExampleAutoplaying .carousel-control-prev {
+    top: 50%;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#herobanner-btn a,
+#herobanner-btn1 a {
+    color: #082077;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 4px 7px 4px 16px;
+    border: none;
+    width: fit-content;
+    display: flex;
+    font-size: 14.4px;
+    gap: 6px;
+    align-items: center;
+}
+
+#herobanner-btn1 a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 7px 4px 25px;
+}
+
+#herobanner-btn,
+#herobanner-btn1 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    display: flex;
+    gap: 10px;
+}
+
+#herobanner-btn1 {
+    left: auto;
+    right: 13%;
+    top: 72%;
+}
+
 @media only screen and (min-width: 600px) {
     .elementor-6 .elementor-element.elementor-element-246886a {
         padding-top: 85px;
@@ -5301,6 +5346,28 @@ svg) {
     #start-trading {
         padding-top: 1rem;
         padding-bottom: 22rem;
+    }
+    #herobanner-btn .elementor-button-icon,
+    #herobanner-btn1 .elementor-button-icon {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        padding: 7px;
+    }
+    #herobanner-btn a,
+    #herobanner-btn1 a {
+        font-size: 12px;
+    }
+    #herobanner-btn {
+        left: 29%;
+    }
+    #herobanner-btn1 {
+        right: 11%;
+    }
+    #carouselExampleAutoplaying .carousel-control-next-icon,
+    #carouselExampleAutoplaying .carousel-control-prev-icon {
+        width: 1rem;
+        height: 1rem;
     }
 }
 
@@ -5436,5 +5503,37 @@ svg) {
         right: -5%;
         padding-left: 0%;
         top: 60rem;
+    }
+    #herobanner-btn .elementor-button-icon {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        padding: 6px;
+    }
+    #herobanner-btn1 .elementor-button-icon {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        padding: 7px;
+    }
+    #herobanner-btn a {
+        font-size: 12px;
+        padding: 3px 3px 2px 10px;
+        gap: 3px;
+    }
+    #herobanner-btn1 a {
+        font-size: 12px;
+    }
+    #herobanner-btn {
+        left: 12%;
+        gap: 5px;
+    }
+    #herobanner-btn1 {
+        right: 11%;
+    }
+    #carouselExampleAutoplaying .carousel-control-next-icon,
+    #carouselExampleAutoplaying .carousel-control-prev-icon {
+        width: 1rem;
+        height: 1rem;
     }
 }
