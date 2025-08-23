@@ -5192,6 +5192,14 @@ svg) {
     padding: 5px;
 }
 
+#carouselExampleAutoplaying .carousel-control-next:hover,
+#carouselExampleAutoplaying .carousel-control-prev:hover,
+#carouselExampleAutoplaying .carousel-control-next:focus,
+#carouselExampleAutoplaying .carousel-control-prev:focus {
+    background-color: #03aa71;
+    opacity: 0.6;
+}
+
 #herobanner-btn a,
 #herobanner-btn1 a {
     color: #082077;
