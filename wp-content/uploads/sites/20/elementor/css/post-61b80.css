@@ -5377,6 +5377,10 @@ svg) {
         width: 1rem;
         height: 1rem;
     }
+    #start-trading .elementor-element-756257a {
+        --width: 100%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -5425,7 +5429,10 @@ svg) {
     }
     #feature-platf {
         width: 100%;
-        gap: 16px;
+        gap: 5px;
+    }
+    #feature-platf h6 {
+        font-size: 14px;
     }
     #platform {
         width: 30%;
@@ -5543,5 +5550,8 @@ svg) {
     #carouselExampleAutoplaying .carousel-control-prev-icon {
         width: 1rem;
         height: 1rem;
+    }
+    #start-trading .elementor-element-18a50f4-1 p {
+        text-align: center;
     }
 }
