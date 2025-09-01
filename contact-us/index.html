@@ -778,7 +778,7 @@
                                                         About Us </a>
                                                 </li>
                                                 <li class="rkit-menu-item   ">
-                                                    <a class="rkit-nav-link" href="../#platform-sec">
+                                                    <a class="rkit-nav-link" href="../platform/index.html">
                                                         Platforms </a>
                                                 </li>
                                                 <li class="rkit-menu-item   ">
@@ -897,11 +897,11 @@
             <div class="elementor-element elementor-element-0627d83 e-flex e-con-boxed e-con e-parent" data-id="0627d83" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-62447ca e-con-full e-flex e-con e-child" data-id="62447ca" data-element_type="container">
-                        <div class="elementor-element elementor-element-317db29 elementor-widget elementor-widget-heading" data-id="317db29" data-element_type="widget" data-widget_type="heading.default">
+                        <!-- <div class="elementor-element elementor-element-317db29 elementor-widget elementor-widget-heading" data-id="317db29" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-heading-title elementor-size-default">CONTACT US</div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="elementor-element elementor-element-9829221 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="9829221" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <h3 class="elementor-heading-title elementor-size-default">Get In Touch!</h3>
@@ -1001,7 +1001,67 @@
                         </div>
                         <div class="elementor-element elementor-element-cd2867b elementor-widget elementor-widget-rform" data-id="cd2867b" data-element_type="widget" data-widget_type="rform.default">
                             <div class="elementor-widget-container">
-                                <form id="rform" data-form="599">
+                                <!-- New Form Adding starts -->
+                                <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+                                    <input type="hidden" name="access_key" value="177e491f-36fc-44ea-aaa5-74f0ec92b23e">
+
+                                    <input type="text" name="name" placeholder="Name" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                    <input type="text" name="subject" placeholder="Subject" required>
+                                    <textarea name="message" placeholder="Message" required></textarea>
+                                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                                    <button type="submit">SEND MESSAGE</button>
+
+                                    <div id="result"></div>
+
+                                </form>
+
+                                <script>
+                                    const form = document.getElementById('form');
+                                    const result = document.getElementById('result');
+
+                                    form.addEventListener('submit', function(e) {
+                                        e.preventDefault();
+                                        const formData = new FormData(form);
+                                        const object = Object.fromEntries(formData);
+                                        const json = JSON.stringify(object);
+                                        result.innerHTML = "Please wait..."
+
+                                        fetch('https://api.web3forms.com/submit', {
+                                                method: 'POST',
+                                                headers: {
+                                                    'Content-Type': 'application/json',
+                                                    'Accept': 'application/json'
+                                                },
+                                                body: json
+                                            })
+                                            .then(async(response) => {
+                                                let json = await response.json();
+                                                if (response.status == 200) {
+                                                    result.innerHTML = "Form submitted successfully";
+                                                } else {
+                                                    console.log(response);
+                                                    result.innerHTML = json.message;
+                                                }
+                                            })
+                                            .catch(error => {
+                                                console.log(error);
+                                                result.innerHTML = "Something went wrong!";
+                                            })
+                                            .then(function() {
+                                                form.reset();
+                                                setTimeout(() => {
+                                                    result.style.display = "none";
+                                                }, 3000);
+                                            });
+                                    });
+                                </script>
+                                <!-- New Form Adding ends -->
+
+                                <!-- Theme form old -->
+                                <!-- <form id="rform" data-form="599">
                                     <div class="require-login msg">
                                         <div class="require-msg-body">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#FF0000" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
@@ -1433,7 +1493,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
                             </div>
                         </div>
                     </div>
@@ -1501,7 +1561,7 @@
                                         <h4 class="elementor-heading-title elementor-size-default">Contact Us</h4>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-18c7194 elementor-position-left elementor-mobile-position-left elementor-vertical-align-middle elementor-view-default elementor-widget elementor-widget-icon-box" data-id="18c7194" data-element_type="widget"
+                                <!-- <div class="elementor-element elementor-element-18c7194 elementor-position-left elementor-mobile-position-left elementor-vertical-align-middle elementor-view-default elementor-widget elementor-widget-icon-box" data-id="18c7194" data-element_type="widget"
                                     data-widget_type="icon-box.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-icon-box-wrapper">
@@ -1521,7 +1581,7 @@
 
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="elementor-element elementor-element-18c7194 elementor-position-left elementor-mobile-position-left elementor-vertical-align-middle elementor-view-default elementor-widget elementor-widget-icon-box" data-id="18c7194" data-element_type="widget"
                                     data-widget_type="icon-box.default">
                                     <div class="elementor-widget-container">
@@ -1673,7 +1733,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="elementor-icon-list-item">
-                                                    <a href="../#platform-sec">
+                                                    <a href="../platform/index.html">
                                                         <span class="elementor-icon-list-text">Platforms</span>
                                                     </a>
                                                 </li>
