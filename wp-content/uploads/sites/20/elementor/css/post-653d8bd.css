@@ -569,3 +569,9 @@ footer {
     margin: 16px 0px 0px 0px;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+    .elementor-653 .elementor-element.elementor-element-18c7194 .elementor-icon-box-wrapper {
+        align-items: center;
+    }
+}
