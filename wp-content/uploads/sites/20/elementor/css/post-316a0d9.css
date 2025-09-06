@@ -3599,6 +3599,42 @@ main p:last-child {
     /* Ensures the image stays on top */
 }
 
+
+/* Legal-Information page CSS starts  */
+
+#legal .elementor-element-302f540>.elementor-widget-container,
+#legal .elementor-element-7989bd8>.elementor-widget-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0em 0em 0em 0em;
+}
+
+#legal .elementor-element-c9048db {
+    --padding-top: 2em;
+    --padding-bottom: 2em;
+}
+
+#legal .elementor-element-73cb994 {
+    --padding-top: 4em;
+    --padding-bottom: 5em;
+}
+
+#legal .elementor-element-c9048db,
+#legal .elementor-element-f84f40e {
+    box-shadow: 0px 0px 10px 0px #0f276129;
+}
+
+@media only screen and (min-width: 1000px) {
+    #legal .elementor-element-c9048db:last-child {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+
+/* Legal-Information page CSS ends  */
+
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     #account-sec4 {
         padding: 20px;
@@ -3623,6 +3659,12 @@ main p:last-child {
     .elementor-316 .elementor-element.elementor-element-caf793f {
         --min-height: 198px;
     }
+    /* Legal-Information page CSS starts  */
+    #legal .elementor-element-c9048db,
+    #legal .elementor-element-f84f40e {
+        width: 100%;
+    }
+    /* Legal-Information page CSS ends  */
 }
 
 @media only screen and (max-width: 600px) {
@@ -3650,4 +3692,12 @@ main p:last-child {
         --padding-top: 2.5em;
         --padding-bottom: 3em;
     }
+    /* Legal-Information page CSS starts  */
+    #legal .elementor-element-302f540>.elementor-widget-container,
+    #legal .elementor-element-7989bd8>.elementor-widget-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    /* Legal-Information page CSS ends  */
 }
