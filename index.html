@@ -877,9 +877,14 @@
                                                         </li>
                                                     </ul>
                                                 </li> -->
-                                                <li class="rkit-menu-item   ">
+                                                <li class="rkit-menu-item ">
                                                     <a class="rkit-nav-link" href="./contact-us/index.html">
                                                         Contact </a>
+                                                </li>
+                                                <li class="rkit-menu-item gt-mobile-view">
+                                                    <!-- Google Translate Code hTML  -->
+                                                    <div id="google_translate_element"></div>
+                                                    <!-- Google Translate Code hTML  -->
                                                 </li>
                                             </ul>
                                         </div>
@@ -900,13 +905,10 @@
                                         </div>
 
                                         <div class="elementor-icon-box-content">
-
                                             <a href="https://my.altusfx.com/auth/register" target="_blank">
                                                 <button>SIGN UP</button>
                                             </a>
-
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -956,34 +958,28 @@
             <!-- Carousel Main banner section -->
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src="images/01/MainBanner1.png" class="d-block w-100" alt="...">
                         <div id="herobanner-btn">
                             <a href="https://my.altusfx.com/auth/login" target="_blank">
                                 <span class="elementor-button-text">Open Live Account</span>
-                                <span class="elementor-button-icon"> 
-                                    <i aria-hidden="true" class="fas fa-arrow-right"></i> 
+                                <span class="elementor-button-icon">
+                                    <i aria-hidden="true" class="fas fa-arrow-right"></i>
                                 </span>
                             </a>
                             <a href="">
                                 <span class="elementor-button-text">Try Risk-Free Demo</span>
-                                <span class="elementor-button-icon"> 
-                                    <i aria-hidden="true" class="fas fa-arrow-right"></i> 
+                                <span class="elementor-button-icon">
+                                    <i aria-hidden="true" class="fas fa-arrow-right"></i>
                                 </span>
                             </a>
                         </div>
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="images/01/DepositBanner_01.png" class="d-block w-100" alt="...">
-                        <div id="herobanner-btn1">
-                            <a href="https://my.altusfx.com/auth/login" target="_blank">
-                                <span class="elementor-button-text">GET IT NOW</span>
-                                <span class="elementor-button-icon"> 
-                                    <i aria-hidden="true" class="fas fa-arrow-right"></i> 
-                                </span>
-                            </a>
-                        </div>
-                    </div> -->
+                    <div class="carousel-item active">
+                        <a>
+                            <img src="images/01/WebsiteBanner_03.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
                     <div class="carousel-item">
                         <a href="https://my.altusfx.com/auth/login" target="_blank">
                             <img src="images/01/DepositBanner_01.png" class="d-block w-100" alt="...">
@@ -4039,12 +4035,14 @@
                                                 <div>
                                                     <li class="elementor-icon-list-item">
                                                         <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=AltusMarkets-Server" target="_blank">
-                                                            <span class="elementor-icon-list-text">Altusfx app Playstore</span>
+                                                            <span class="elementor-icon-list-text">Altusfx app
+                                                                Playstore</span>
                                                         </a>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=AltusMarkets-Server" target="_blank">
-                                                            <span class="elementor-icon-list-text">Altusfx app Ios</span>
+                                                            <span class="elementor-icon-list-text">Altusfx app
+                                                                Ios</span>
                                                         </a>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
@@ -4070,12 +4068,24 @@
                                 </div>
                                 <div class="elementor-widget-container">
                                     <div class="elementor-social-icons-wrapper elementor-grid" role="list">
-                                        <span class="elementor-grid-item" role="listitem">
+                                        <!-- <span class="elementor-grid-item" role="listitem">
                                             <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-float elementor-repeater-item-23f53da"
                                                 href="https://t.me/altusfxofficial" target="_blank">
                                                 <span class="elementor-screen-only">telegram</span>
                                         <img src="images/Footer/SocialIcon/telegram.png" alt="">
                                         </a>
+                                        </span> -->
+                                        <span class="elementor-grid-item telegram-tooltip" role="listitem">
+                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-animation-float">
+                                                <span class="elementor-screen-only">telegram</span>
+                                        <img src="images/Footer/SocialIcon/telegram.png" alt="Telegram">
+                                        </a>
+
+                                        <!-- Tooltip with extra links -->
+                                        <div class="tooltip-links">
+                                            <a href="https://t.me/altusfx" target="_blank">Telegram&nbsp; Channel</a>
+                                            <a href="https://t.me/altusfxofficial" target="_blank">Telegram&nbsp; Group</a>
+                                        </div>
                                         </span>
                                         <span class="elementor-grid-item" role="listitem">
                                             <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-float elementor-repeater-item-60be6c4"
@@ -4110,13 +4120,13 @@
                                         <img src="images/Footer/SocialIcon/Medium02.png" alt="">
                                         </a>
                                         </span>
-                                        <span class="elementor-grid-item" role="listitem">
+                                        <!-- <span class="elementor-grid-item" role="listitem">
                                             <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-float elementor-repeater-item-23f53da"
                                                 href="https://t.me/altusfx" target="_blank">
                                                 <span class="elementor-screen-only">telegram</span>
                                         <img src="images/Footer/SocialIcon/telegram.png" alt="">
                                         </a>
-                                        </span>
+                                        </span> -->
                                     </div>
                                 </div>
                             </div>
@@ -4479,6 +4489,20 @@
         };
     </script>
     <script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor49eb.js?ver=3.5.2" id="elementskit-elementor-js"></script>
+
+    <!-- Google translate code Script  -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                    pageLanguage: 'en'
+                }, // replace 'en' with your default website language
+                'google_translate_element'
+            );
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google translate code Script  -->
 </body>
 
 </html>

@@ -345,6 +345,10 @@ body:not(.rtl) .elementor-695 .elementor-element.elementor-element-640dfa0 .elem
     color: var(--e-global-color-8b6184c);
 }
 
+#google_translate_element {
+    width: fit-content;
+}
+
 @media(max-width:1024px) {
     .elementor-695 .elementor-element.elementor-element-cd7fa4e {
         --flex-direction: column;

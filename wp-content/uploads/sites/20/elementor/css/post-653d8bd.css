@@ -570,8 +570,111 @@ footer {
     font-weight: 500;
 }
 
+
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+} */
+
+
+/* Tooltip CSS  */
+
+.telegram-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-links {
+    display: none;
+    position: absolute;
+    bottom: 120%;
+    /* show above icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #03aa71;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+    z-index: 999;
+    text-align: left;
+}
+
+.tooltip-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 14px;
+    word-spacing: normal;
+}
+
+.tooltip-links a:hover {
+    text-decoration: underline;
+    color: #102864;
+}
+
+
+/* Show on hover */
+
+.telegram-tooltip:hover .tooltip-links {
+    display: block;
+}
+
+
+/* Tooltip CSS  */
+
+
+/* Hide Google Translate branding */
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget span {
+    display: none !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    .goog-te-gadget {
+        height: 62px !important;
+        overflow: hidden;
+        padding: 22px 0px 0px 2px;
+        width: 124px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .goog-te-gadget {
+        height: 48px !important;
+        overflow: hidden;
+        padding: 0px 0px 0px 13px;
+        width: 137px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .elementor-653 .elementor-element.elementor-element-18c7194 .elementor-icon-box-wrapper {
         align-items: center;
+    }
+    .tooltip-links {
+        left: 145%;
     }
 }
