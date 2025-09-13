@@ -652,6 +652,20 @@ footer {
     display: none !important;
 }
 
+
+/* Elfsight Website Translator CSS  */
+
+.elfsight-app-c73c7e0e-9fbe-49ac-94bf-ce2be8f2806c {
+    padding-top: 35px;
+}
+
+.gt-mobile-view>.elfsight-app-c73c7e0e-9fbe-49ac-94bf-ce2be8f2806c a {
+    display: none !important;
+}
+
+
+/* Elfsight Website Translator CSS  */
+
 @media only screen and (min-width: 1024px) {
     .goog-te-gadget {
         height: 62px !important;
