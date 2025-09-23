@@ -2964,6 +2964,12 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     color: #03AA71;
 }
 
+/* Ib Programm CSS  */
+#ibprogram .elementor-element-f5320e2 {
+    background-image: url(../../../../../../images/IB-program/01/IBSturcture.png);
+}
+/* Ib Programm CSS  */
+
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     #platform-pg .elementor-269 .elementor-element.elementor-element-f5320e2 {
         --min-height: 197px;
