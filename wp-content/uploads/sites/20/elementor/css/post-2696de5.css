@@ -21,6 +21,7 @@
     background-repeat: no-repeat;
 }
 
+
 /* .elementor-269 .elementor-element.elementor-element-f5320e2::before,
 .elementor-269 .elementor-element.elementor-element-f5320e2>.elementor-background-video-container::before,
 .elementor-269 .elementor-element.elementor-element-f5320e2>.e-con-inner>.elementor-background-video-container::before,
@@ -1841,33 +1842,35 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     color: var(--e-global-color-6c3dd71);
 }
 
+#ibprogsec5title {
+    text-align: center;
+}
+
 @media(min-width:768px) {
     .elementor-269 .elementor-element.elementor-element-89c9f73 {
         --width: 50%;
     }
-
     .elementor-269 .elementor-element.elementor-element-71a4383 {
         --width: 50%;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae3e2cf {
         --width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-477b0a5 {
         --width: 50%;
     }
-
     .elementor-269 .elementor-element.elementor-element-dc7b332 {
         --width: 50%;
     }
-
     .elementor-269 .elementor-element.elementor-element-26400c2 {
         --width: 60%;
     }
-
     .elementor-269 .elementor-element.elementor-element-ea9f33d {
         --width: 40%;
+    }
+    #ibprogsec5 .elementor-element-26400c2,
+    #ibprog-sec52 {
+        --width: 50%;
     }
 }
 
@@ -1875,46 +1878,36 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     .elementor-269 .elementor-element.elementor-element-89c9f73 {
         --width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-71a4383 {
         --width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-477b0a5 {
         --width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-dc7b332 {
         --width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-26400c2 {
         --width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-ea9f33d {
         --width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-fc423ee {
         --width: 47.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-7c35aa0 {
         --width: 47.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-c06fc20 {
         --width: 47.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-be7c096 {
         --width: 47.5%;
     }
 }
 
 @media(min-width:1025px) {
-
     .elementor-269 .elementor-element.elementor-element-e52cf85:not(.elementor-motion-effects-element-type-background),
     .elementor-269 .elementor-element.elementor-element-e52cf85>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-attachment: fixed;
@@ -1931,60 +1924,48 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         --flex-wrap-mobile: wrap;
         --gap: 70px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-c1df856>.elementor-widget-container {
         margin: 0em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-b9db8fe>.elementor-widget-container {
         margin: -11em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5>.elementor-widget-container {
         margin: -10em 9.5em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5 .ekit-video-popup-btn i {
         font-size: 25px;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5 .ekit-video-popup-btn svg {
         max-width: 25px;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5 .ekit-video-popup-btn {
         width: 65px;
         height: 65px;
         line-height: 55px;
     }
-
     .elementor-269 .elementor-element.elementor-element-52cd59e .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-89902e3 .elementor-icon-list-item>.elementor-icon-list-text,
     .elementor-269 .elementor-element.elementor-element-89902e3 .elementor-icon-list-item>a {
         font-size: var(--e-global-typography-609c18b-font-size);
         line-height: var(--e-global-typography-609c18b-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a8eef68 .elementor-icon-list-item>.elementor-icon-list-text,
     .elementor-269 .elementor-element.elementor-element-a8eef68 .elementor-icon-list-item>a {
         font-size: var(--e-global-typography-609c18b-font-size);
         line-height: var(--e-global-typography-609c18b-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-9c85dd1 {
         font-size: var(--e-global-typography-e1d23f2-font-size);
         line-height: var(--e-global-typography-e1d23f2-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-72c0497 .elementor-image-box-wrapper .elementor-image-box-img {
         width: 13%;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae3e2cf {
         --flex-direction: row;
         --container-widget-width: initial;
@@ -1995,11 +1976,9 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         --gap: 50px 0px;
         --flex-wrap: wrap;
     }
-
     .elementor-269 .elementor-element.elementor-element-7b7ad46>.elementor-widget-container {
         margin: 0em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-7b7ad46 {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
@@ -2007,52 +1986,42 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         max-width: 100%;
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-dd35d01 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-dd35d01 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-dd35d01 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a7f0d20 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a7f0d20 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a7f0d20 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-45b6747 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-45b6747 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-45b6747 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-bc0bfe5 {
         --flex-direction: column;
         --container-widget-width: 100%;
@@ -2062,103 +2031,83 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         --flex-wrap-mobile: wrap;
         --gap: 70px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-477b0a5.e-con {
         --order: 99999
-            /* order end hack */
+        /* order end hack */
         ;
     }
-
     .elementor-269 .elementor-element.elementor-element-7da9810 .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-6158c14 .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-6158c14 .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-d79824f .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-d79824f .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a3332a2 .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a3332a2 .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-eb32b73 .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-eb32b73 .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176>.elementor-widget-container {
         margin: -8em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .elementskit-funfact-inner {
         padding: 3em 3em 3em 3em;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-testimonial-slider {
         --ekit_testimonial_left_right_spacing: 30px;
         --ekit_testimonial_slidetoshow: 2;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-single-testimonial-slider .elementskit-commentor-content>p,
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-testimonial_card .elementskit-commentor-coment {
         font-size: var(--e-global-typography-e1d23f2-font-size);
         line-height: var(--e-global-typography-e1d23f2-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-profile-info .elementskit-author-name {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-profile-info .elementskit-author-des {
         font-size: var(--e-global-typography-609c18b-font-size);
         line-height: var(--e-global-typography-609c18b-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-fce2feb {
         --flex-direction: column;
         --container-widget-width: 100%;
@@ -2168,60 +2117,47 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         --flex-wrap-mobile: wrap;
         --gap: 20px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-26400c2 {
         --gap: 20px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-26400c2.e-con {
         --order: 99999
-            /* order end hack */
+        /* order end hack */
         ;
     }
-
     .elementor-269 .elementor-element.elementor-element-723f755 {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-77e5824 {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-c116478 {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-d12b54c {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-648212e {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-6423a7a {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-ea9f33d {
         --align-items: center;
         --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
     }
-
     .elementor-269 .elementor-element.elementor-element-8137cc1 {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-8137cc1 .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-b039a5b {
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-c9d4f5f {
         width: var(--container-widget-width, 100%);
         max-width: 100%;
@@ -2229,53 +2165,42 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         --container-widget-flex-grow: 0;
         text-align: center;
     }
-
     .elementor-269 .elementor-element.elementor-element-baff755 .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-d4804bd {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 100%);
         max-width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae2a5f0 {
         --justify-content: space-between;
         --flex-wrap: wrap;
     }
-
     .elementor-269 .elementor-element.elementor-element-7fbc94a .profile-body {
         padding: 15em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-7fbc94a .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 15em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-e80052c .profile-body {
         padding: 15em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-e80052c .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 15em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae7ce21 .profile-body {
         padding: 15em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae7ce21 .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 15em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-abee2f4 .profile-body {
         padding: 15em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-abee2f4 .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 15em 0em 0em 0em;
     }
@@ -2285,385 +2210,311 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     .elementor-269 .elementor-element.elementor-element-f939a2e {
         --gap: 50px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-c1df856 img {
         width: 85%;
     }
-
     .elementor-269 .elementor-element.elementor-element-b9db8fe>.elementor-widget-container {
         margin: -6em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-b9db8fe img {
         width: 60%;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5>.elementor-widget-container {
         margin: -6em 4.5em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5 .ekit-video-popup-btn {
         padding: 8px 0px 0px 4px;
         width: 50px;
         height: 50px;
         line-height: 35px;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5 .ekit-video-popup-btn i {
         font-size: 17px;
     }
-
     .elementor-269 .elementor-element.elementor-element-d5aa1d5 .ekit-video-popup-btn svg {
         max-width: 17px;
     }
-
     .elementor-269 .elementor-element.elementor-element-52cd59e .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-4e18f4d>.elementor-widget-container {
         margin: 0em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-89902e3 .elementor-icon-list-item>.elementor-icon-list-text,
     .elementor-269 .elementor-element.elementor-element-89902e3 .elementor-icon-list-item>a {
         font-size: var(--e-global-typography-609c18b-font-size);
         line-height: var(--e-global-typography-609c18b-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a8eef68 .elementor-icon-list-item>.elementor-icon-list-text,
     .elementor-269 .elementor-element.elementor-element-a8eef68 .elementor-icon-list-item>a {
         font-size: var(--e-global-typography-609c18b-font-size);
         line-height: var(--e-global-typography-609c18b-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-9c85dd1 {
         font-size: var(--e-global-typography-e1d23f2-font-size);
         line-height: var(--e-global-typography-e1d23f2-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-72c0497 .elementor-image-box-wrapper {
         text-align: left;
     }
-
     .elementor-269 .elementor-element.elementor-element-72c0497 .elementor-image-box-img {
         margin-bottom: 20px;
     }
-
     .elementor-269 .elementor-element.elementor-element-72c0497 .elementor-image-box-wrapper .elementor-image-box-img {
         width: 15%;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae3e2cf {
         --gap: 40px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-dd35d01 {
         width: 100%;
         max-width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-dd35d01 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-dd35d01 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-dd35d01 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a7f0d20 {
         width: 100%;
         max-width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-a7f0d20 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a7f0d20 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a7f0d20 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-45b6747 {
         width: 100%;
         max-width: 100%;
     }
-
     .elementor-269 .elementor-element.elementor-element-45b6747 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-45b6747 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-45b6747 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-bc0bfe5 {
         --gap: 50px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-7da9810 .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-0ef43a8>.elementor-widget-container {
         margin: 0em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-cc2be9d>.elementor-widget-container {
         margin: 0em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-6158c14 .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-6158c14 .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-d79824f .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-d79824f .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a3332a2 .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-a3332a2 .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-eb32b73 .skillbar-group .skill-title {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-eb32b73 .skillbar-group .number-percentage-wraper {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-881c517>.elementor-widget-container {
         margin: 0em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-881c517 img {
         width: 90%;
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176>.elementor-widget-container {
         margin: -5em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 {
         --container-widget-width: 75%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 75%);
         max-width: 75%;
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .funfact-content .number-percentage-wraper {
         font-size: var(--e-global-typography-908eadc-font-size);
         line-height: var(--e-global-typography-908eadc-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .funfact-title {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .super {
         font-size: var(--e-global-typography-04c9482-font-size);
         line-height: var(--e-global-typography-04c9482-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-e182176 .elementskit-funfact .elementskit-funfact-inner {
         padding: 2em 2em 2em 2em;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-testimonial-slider {
         --ekit_testimonial_left_right_spacing: 30px;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-tootltip-testimonial .elementskit-commentor-content,
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-single-testimonial-slider,
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-testimonial_card {
         padding: 1em 2em 2em 2em;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-single-testimonial-slider .elementskit-commentor-content>p,
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-testimonial_card .elementskit-commentor-coment {
         font-size: var(--e-global-typography-e1d23f2-font-size);
         line-height: var(--e-global-typography-e1d23f2-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-watermark-icon>i {
         font-size: 40px;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-watermark-icon>svg {
         width: 40px;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-testimonial-slider-block-style .elementskit-commentor-content>i {
         margin-bottom: 10px;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-testimonial-slider-block-style-three .elementskit-icon-content>i {
         margin-bottom: 10px;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-watermark-icon {
         margin-bottom: 10px;
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-profile-info .elementskit-author-name {
         font-size: var(--e-global-typography-f8670a1-font-size);
         line-height: var(--e-global-typography-f8670a1-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .elementskit-profile-info .elementskit-author-des {
         font-size: var(--e-global-typography-609c18b-font-size);
         line-height: var(--e-global-typography-609c18b-line-height);
     }
-
     .elementor-269 .elementor-element.elementor-element-6f6d5c5 .ekit-testimonial--avatar {
         margin: 0px 15px 0px 0px;
     }
-
     .elementor-269 .elementor-element.elementor-element-26400c2 {
         --gap: 20px 20px;
     }
-
     .elementor-269 .elementor-element.elementor-element-723f755 {
         --container-widget-width: 46.5%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 46.5%);
         max-width: 46.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-77e5824 {
         --container-widget-width: 46.5%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 46.5%);
         max-width: 46.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-c116478 {
         --container-widget-width: 46.5%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 46.5%);
         max-width: 46.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-d12b54c {
         --container-widget-width: 46.5%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 46.5%);
         max-width: 46.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-648212e {
         --container-widget-width: 46.5%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 46.5%);
         max-width: 46.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-6423a7a {
         --container-widget-width: 46.5%;
         --container-widget-flex-grow: 0;
         width: var(--container-widget-width, 46.5%);
         max-width: 46.5%;
     }
-
     .elementor-269 .elementor-element.elementor-element-8137cc1 .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-c9d4f5f>.elementor-widget-container {
         margin: 0em 1em 0em 1em;
     }
-
     .elementor-269 .elementor-element.elementor-element-baff755 .elementor-heading-title {
         font-size: var(--e-global-typography-d7d4b4d-font-size);
         line-height: var(--e-global-typography-d7d4b4d-line-height);
         letter-spacing: var(--e-global-typography-d7d4b4d-letter-spacing);
     }
-
     .elementor-269 .elementor-element.elementor-element-7fbc94a .profile-body {
         padding: 13em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-7fbc94a .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 13em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-e80052c .profile-body {
         padding: 13em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-e80052c .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 13em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae7ce21 .profile-body {
         padding: 13em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-ae7ce21 .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 13em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-abee2f4 .profile-body {
         padding: 13em 0em 0em 0em;
     }
-
     .elementor-269 .elementor-element.elementor-element-abee2f4 .ekit-wid-con .profile-square-v .profile-card .profile-body {
         padding: 13em 0em 0em 0em;
     }
 }
 
+
 /* My CSS  */
 
+
 /* Platform page css */
+
 #plat-sec2img {
     position: absolute;
     right: 0px;
@@ -2801,6 +2652,7 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     --padding-bottom: 1em;
 }
 
+
 /* platsec5-2 Css  */
 
 .text-center {
@@ -2878,7 +2730,6 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     top: 0;
     left: 0;
     width: 100%;
-
     -ms-transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
@@ -2905,7 +2756,6 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     -webkit-perspective: inherit;
     perspective: inherit;
     z-index: 2;
-
     transform: translateY(-50%) translateZ(60px) scale(.94);
     -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
     -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
@@ -2937,6 +2787,7 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     padding: 10px 24px;
 }
 
+
 /* platsec5-2 Css  */
 
 #platsec3 .elementor-element-7cfdc91 .elementskit-card {
@@ -2964,30 +2815,313 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     color: #03AA71;
 }
 
+
 /* Ib Programm CSS  */
+
 #ibprogram .elementor-element-f5320e2 {
     background-image: url(../../../../../../images/IB-program/01/IBSturcture.png);
 }
+
+#ibprogram-sec2 {
+    --padding-top: 4em;
+    --padding-bottom: 4em;
+    background-color: #e8ebf3;
+}
+
+#ibprogram-sec2 .elementor-element-62c991f img {
+    width: 40%;
+}
+
+#ibprogram-sec2 .elementor-element-881c517 img {
+    width: 100%;
+}
+
+#ibprogram-sec2 .elementor-element-881c517 {
+    background-color: #102864;
+    border-radius: 30px;
+    padding: 32px;
+}
+
+#ibprog-sec3 p {
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+#ibprog-sec3 p>img {
+    padding-top: 4px;
+    margin-right: 6px;
+}
+
+#ibprog-sec3 {
+    background-color: #102864;
+    color: #fff;
+}
+
+#ibprog-sec3 .elementor-element-71a4383 {
+    padding: 0% 6% 0% 8%;
+}
+
+#ibprog-sec3 .elementor-element-c1df856 img {
+    width: 100%;
+}
+
+#ibprog-sec3-overlayimg {
+    position: absolute;
+    left: -10%;
+    right: -4%;
+    top: 0%;
+}
+
+#ibprog-sec3-overlayimg img {
+    width: 100%;
+    /* optional, scale as you need */
+    animation: rotate360 15s linear infinite;
+    /* slow rotation */
+    transform-origin: center center;
+    /* rotate from center */
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#ibprog-sec3 h3 {
+    font-size: 38px;
+    margin-bottom: 3rem;
+}
+
+#ibprogramsec4 {
+    background-image: url(../../../../../../images/IB-program/04/Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ibprogramsec4 .elementor-element-e7cd63b h2 {
+    color: #03aa71;
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin: -16px 0px -4px 0px;
+}
+
+#ibprogramsec4 .elementor-element-e7cd63b h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+}
+
+#ibprogramsec4 .elementor-element-e7cd63b h5 {
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+#ibprosec4icon {
+    position: absolute;
+    left: 43%;
+    top: 83%;
+}
+
+#ibprogramsec4 .elementor-element-62c991f h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#ibprogramsec4 {
+    --padding-top: 2em;
+}
+
+
+/* Hover Effect Like Super Team Deluxe CSS for Ibprogramsec4*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw auto;
+    position: relative;
+    width: 94vw;
+    justify-content: space-between;
+}
+
+.product {
+    flex: auto;
+    font-size: 18px;
+    margin: 0 1vw calc(1vw + 50px) 1vw;
+    max-width: calc(20% - 2vw);
+    position: relative;
+}
+
+.product:before {
+    content: "";
+    float: left;
+    padding-top: 100%;
+}
+
+.content {
+    background: #102864;
+    border-radius: 20px;
+    height: 84%;
+    margin: 8%;
+    position: absolute;
+    width: 84%;
+    vertical-align: middle;
+    z-index: 5000;
+}
+
+.effect-1,
+.effect-2 {
+    border-radius: 20px;
+    /* display: none; */
+    mix-blend-mode: multiply;
+    height: 96%;
+    opacity: 1;
+    position: absolute;
+    width: 94%;
+    z-index: 3000;
+}
+
+.effect-1 {
+    animation: rotate 4.8s linear infinite;
+    background: cyan;
+}
+
+.effect-2 {
+    animation: rotate 4.2s linear reverse infinite;
+    background: #e7a9ff;
+}
+
+@keyframes rotate {
+    0% {
+        top: 0;
+        left: 8%;
+    }
+    25% {
+        top: 8%;
+        left: 0%;
+    }
+    50% {
+        top: 16%;
+        left: 8%;
+    }
+    75% {
+        top: 8%;
+        left: 16%;
+    }
+    100% {
+        top: 0;
+        left: 8%;
+    }
+}
+
+.title {
+    position: relative;
+    top: calc(100% + 16px);
+    color: #1b202f;
+}
+
+.exercise {
+    content: url(../../../../../../images/IB-program/04/Icon/01.png);
+    height: 50%;
+    margin: 25%;
+    width: 50%;
+}
+
+.sleep {
+    content: url(../../../../../../images/IB-program/04/Icon/02.png);
+    height: 50%;
+    margin: 25%;
+    width: 50%;
+}
+
+.meditation {
+    content: url(../../../../../../images/IB-program/04/Icon/03.png);
+    height: 38%;
+    margin: 31%;
+    width: 38%;
+}
+
+.meditation2 {
+    content: url(../../../../../../images/IB-program/04/Icon/04.png);
+    height: 46%;
+    margin: 27%;
+    width: 46%;
+}
+
+
+/* Hover Effect Like Super Team Deluxe CSS for IBprogramsec4*/
+
+#ibprogramsec4-1 {
+    --padding-top: 0em;
+    --padding-bottom: 3em;
+    margin-top: -6rem;
+}
+
+#ibprogsec5 {
+    background: linear-gradient(180deg, #e8ebf3, #fff 15%);
+    --padding-top: 2em;
+    --padding-bottom: 2em;
+}
+
+#ibprog-sec52 {
+    align-items: center;
+    padding-right: 2%;
+}
+
+#ibprog-sec52img {
+    border-radius: 30px;
+    border: 2px solid #e8ebf3;
+    padding: 80px;
+    width: 274px;
+    height: 274px;
+}
+
+#ibprogsec5 button {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#ibprogsec5 .elementor-element-26400c2 {
+    padding-right: 8%;
+}
+
+#ibprogsec5 {
+    input[type=text],
+    input[type=url],
+    input[type=email],
+    select,
+    textarea {
+        background: #e8ebf3;
+        border: 1px solid #e8ebf3;
+    }
+}
+
+
 /* Ib Programm CSS  */
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     #platform-pg .elementor-269 .elementor-element.elementor-element-f5320e2 {
         --min-height: 197px;
     }
-
     #plat-sec2img {
         width: 30%;
     }
-
     #platsec5 .elementor-element-6f6d5c5 .ekit-wid-con {
         flex-direction: column;
     }
-
     #platsec5-1,
     #platsec5-2 {
         width: 100%;
     }
-
     #platsec6 .elementor-element-26400c2 {
         margin-top: 30px;
     }
@@ -2997,51 +3131,40 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     #platform-pg .elementor-269 .elementor-element.elementor-element-f5320e2 {
         --min-height: 92px;
     }
-
     #platform-pg .elementor-269 .elementor-element.elementor-element-4220a37 .elementor-heading-title {
         font-size: 28px;
     }
-
     #platform-sec2 .elementor-element-7da9810 {
         margin-top: 0px;
     }
-
     #platform-sec2 .elementor-element-7da9810 a img {
         width: 85px;
     }
-
     #platform-sec2 .elementor-element-7da9810 a {
         margin-right: 13px;
     }
-
     #platform-sec2 {
         --padding-bottom: 30em;
         --padding-top: 4em;
     }
-
     #platsec3 .elementor-element-c1df856 img {
         width: 100%;
     }
-
     #platsec5 .elementor-element-6f6d5c5 .ekit-wid-con,
     .box-container {
         flex-direction: column;
     }
-
     #platsec5-1,
     #platsec5-2 {
         width: 100%;
     }
-
     #platsec5-1 {
         padding-right: 0%;
         margin-bottom: 30px;
     }
-
     #platsec5-12 a:nth-child(3) img {
         margin-left: 5px;
     }
-
     #platsec3 .elementor-element-7cfdc91 .elementskit-accordion .elementskit-card-body {
         padding-right: 10px;
         padding-left: 40px;
