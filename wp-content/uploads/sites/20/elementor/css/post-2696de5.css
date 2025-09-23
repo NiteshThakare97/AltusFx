@@ -1844,6 +1844,7 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
 
 #ibprogsec5title {
     text-align: center;
+    margin: 20px 0px 12px 0px;
 }
 
 @media(min-width:768px) {
@@ -2829,17 +2830,62 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
 }
 
 #ibprogram-sec2 .elementor-element-62c991f img {
-    width: 40%;
-}
-
-#ibprogram-sec2 .elementor-element-881c517 img {
-    width: 100%;
+    width: 35%;
+    margin-top: 78px;
 }
 
 #ibprogram-sec2 .elementor-element-881c517 {
     background-color: #102864;
     border-radius: 30px;
     padding: 32px;
+    /* Added CSs  */
+    overflow: hidden;
+    position: relative;
+}
+
+#ibprogram-sec2 .elementor-element-881c517 img {
+    width: 100%;
+    border-radius: 20px;
+    animation: zoomInOut 8s ease-in-out infinite;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Zoom In/Out */
+
+@keyframes zoomInOut {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+
+/* Shine overlay */
+
+#ibprogram-sec2 .elementor-element-881c517::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transform: skewX(-25deg);
+    animation: shineEffect 5s infinite;
+}
+
+@keyframes shineEffect {
+    0% {
+        left: -75%;
+    }
+    100% {
+        left: 125%;
+    }
 }
 
 #ibprog-sec3 p {
@@ -3103,13 +3149,40 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         background: #e8ebf3;
         border: 1px solid #e8ebf3;
     }
+    input::placeholder,
+    textarea::placeholder {
+        color: #6d7384;
+    }
+}
+
+#downloadBtn:disabled {
+    opacity: 0.5;
+    /* Makes it look faded */
+    cursor: not-allowed;
+    /* Show "not-allowed" mouse icon */
+}
+
+#downloadBtn {
+    opacity: 1;
+    transition: all 0.3s ease;
+    /* Smooth effect */
+}
+
+#ibprog-sec52 button {
+    background-color: #0f265f;
+    color: #fff;
+}
+
+#result {
+    color: red;
 }
 
 
 /* Ib Programm CSS  */
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-    #platform-pg .elementor-269 .elementor-element.elementor-element-f5320e2 {
+    #platform-pg .elementor-269 .elementor-element.elementor-element-f5320e2,
+    #ibprogram .elementor-element-f5320e2 {
         --min-height: 197px;
     }
     #plat-sec2img {
@@ -3125,10 +3198,36 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     #platsec6 .elementor-element-26400c2 {
         margin-top: 30px;
     }
+    /* IB Program  */
+    #ibprogram-sec2>.e-con-inner,
+    #ibprog-sec3>.e-con-inner {
+        flex-direction: column-reverse;
+    }
+    #ibprog-sec3-overlayimg {
+        left: 17%;
+        right: 24%;
+    }
+    #ibprogramsec4 .elementor-element-e7cd63b h5 {
+        font-size: 16px;
+    }
+    #ibprogramsec4 .elementor-element-e7cd63b h2 {
+        font-size: 4rem;
+    }
+    #ibprogramsec4 .elementor-element-e7cd63b h4 {
+        font-size: 1.6rem;
+    }
+    #ibprogramsec4 {
+        background-position: bottom;
+    }
+    #ibprogsec5 .e-con-inner {
+        flex-direction: row-reverse;
+    }
+    /* IB Program  */
 }
 
 @media only screen and (max-width: 600px) {
-    #platform-pg .elementor-269 .elementor-element.elementor-element-f5320e2 {
+    #platform-pg .elementor-269 .elementor-element.elementor-element-f5320e2,
+    #ibprogram .elementor-element-f5320e2 {
         --min-height: 92px;
     }
     #platform-pg .elementor-269 .elementor-element.elementor-element-4220a37 .elementor-heading-title {
@@ -3169,4 +3268,33 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
         padding-right: 10px;
         padding-left: 40px;
     }
+    /* IB Program  */
+    #ibprogram-sec2 .elementor-element-62c991f img {
+        margin-top: 24px;
+    }
+    #ibprog-sec3>.e-con-inner {
+        flex-direction: column-reverse;
+    }
+    #ibprog-sec3 .elementor-element-71a4383 {
+        padding: 0% 0% 8% 0%;
+    }
+    #ibprogramsec4 .elementor-element-e7cd63b h2 {
+        font-size: 3rem;
+    }
+    #ibprogramsec4 .elementor-element-e7cd63b h4 {
+        font-size: 1.4rem;
+    }
+    #ibprogramsec4 .elementor-element-e7cd63b h5 {
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .product {
+        margin: 0 1vw calc(1vw + 140px) 1vw;
+        max-width: calc(46% - 2vw);
+    }
+    #ibprogsec5 .e-con-inner {
+        flex-direction: column-reverse;
+        gap: 76px;
+    }
+    /* IB Program  */
 }

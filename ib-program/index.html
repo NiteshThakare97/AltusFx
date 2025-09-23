@@ -810,7 +810,7 @@
                                                         Accounts </a>
                                                 </li>
                                                 <li class="rkit-menu-item   ">
-                                                    <a class="rkit-nav-link" href="../images/Altusfx2Level-IB-Structure.pdf" target="_blank">
+                                                    <a class="rkit-nav-link" href="../ib-program/index.html">
                                                         IB Programe </a>
                                                 </li>
                                                 <!-- <li class="rkit-menu-item  rkit-dropdown-hover ">
@@ -937,7 +937,7 @@
                         </div>
                         <div class="elementor-element elementor-element-62c991f elementor-widget elementor-widget-text-editor" data-id="62c991f" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>With 10,000+ partners worldwide and $1.4 Billion already paid, AltusFX is redefining IB success.</p>
+                                <p>With 10,000+ partners worldwide and $1.4 Billion <br> already paid, AltusFX is redefining IB success.</p>
                                 <div>
                                     <img src="../images/IB-program/02/Icon.png" alt="">
                                     <h4 style="font-weight: 400;">In just the last <b>12 months</b>, <br> our partners earned <b>$40 Million+</b> in payouts.</h4>
@@ -948,18 +948,10 @@
                     <div class="elementor-element elementor-element-dc7b332 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="dc7b332" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
                         <div class="elementor-element elementor-element-881c517 elementor-widget elementor-widget-image" data-id="881c517" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-
                                 <img loading="lazy" decoding="async" width="800" height="900" src="../images/IB-program/02/Image.png" class="attachment-full size-full wp-image-1086" alt="" sizes="(max-width: 800px) 100vw, 800px" />
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="product">
-                        <div class="effect-1"></div>
-                        <div class="effect-2"></div>
-                        <div class="content">
-                            <img src="../images/IB-program/02/Image.png" alt="">
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <div class="elementor-element elementor-element-f939a2e e-flex e-con-boxed e-con e-parent" data-id="f939a2e" data-element_type="container" id="ibprog-sec3">
@@ -1293,7 +1285,7 @@
                         </div>
                         <div class="elementor-element elementor-element-62c991f elementor-widget elementor-widget-text-editor" data-id="62c991f" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <h6>Our easy-to-use IB Portal gives you full control:</h6>
+                                <h6>Our easy-to-use IB Portal gives you full control</h6>
                                 <!-- <p><img src="../images/platform/03/Circle.png" alt=""> &nbsp; Track your clients’ trading activity</p>
                                 <p><img src="../images/platform/03/Circle.png" alt=""> &nbsp; Monitor earnings & sub-IB commissions in real time</p>
                                 <p><img src="../images/platform/03/Circle.png" alt=""> &nbsp; Access detailed reports & performance metrics</p>
@@ -1314,7 +1306,7 @@
                                 <div class="exercise"></div>
                             </div>
                             <span class="title">
-                                Track your clients’ trading activity
+                                Track your client’s trading activity
                             </span>
                         </div>
                         <div class="product">
@@ -1360,12 +1352,12 @@
                         <div class="elementor-widget-container">
                             <form method="POST" id="form">
 
-                                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                                <input type="hidden" name="access_key" value="d88fe4c9-7984-4058-a6bd-ff6de59e90ee">
 
                                 <input type="text" name="name" placeholder="Name" required>
                                 <input style="margin: 20px 0px;" type="email" name="email" placeholder="Email Id" required>
-                                <input type="text" name="name" placeholder="Enter Your Country" required>
-                                <textarea style="margin: 20px 0px;" rows="4" name="message" placeholder="Message" required></textarea>
+                                <input type="text" name="country" placeholder="Enter Your Country" required>
+                                <textarea style="margin: 20px 0px 34px 0px;" rows="5" name="message" placeholder="Message" required></textarea>
                                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                                 <div style="display: flex; justify-content: space-around;">
@@ -1375,46 +1367,7 @@
                                 <div id="result"></div>
                             </form>
 
-                            <script>
-                                const form = document.getElementById('form');
-                                const result = document.getElementById('result');
 
-                                form.addEventListener('submit', function(e) {
-                                    e.preventDefault();
-                                    const formData = new FormData(form);
-                                    const object = Object.fromEntries(formData);
-                                    const json = JSON.stringify(object);
-                                    result.innerHTML = "Please wait..."
-
-                                    fetch('https://api.web3forms.com/submit', {
-                                            method: 'POST',
-                                            headers: {
-                                                'Content-Type': 'application/json',
-                                                'Accept': 'application/json'
-                                            },
-                                            body: json
-                                        })
-                                        .then(async(response) => {
-                                            let json = await response.json();
-                                            if (response.status == 200) {
-                                                result.innerHTML = "Form submitted successfully";
-                                            } else {
-                                                console.log(response);
-                                                result.innerHTML = json.message;
-                                            }
-                                        })
-                                        .catch(error => {
-                                            console.log(error);
-                                            result.innerHTML = "Something went wrong!";
-                                        })
-                                        .then(function() {
-                                            form.reset();
-                                            setTimeout(() => {
-                                                result.style.display = "none";
-                                            }, 3000);
-                                        });
-                                });
-                            </script>
                         </div>
                     </div>
                     <div class="elementor-element elementor-element-ea9f33d e-con-full e-flex e-con e-child" data-id="ea9f33d" data-element_type="container" id="ibprog-sec52">
@@ -1423,11 +1376,58 @@
                             <img src="../images/IB-program/05/Download.png" alt="">
                         </div>
                         <div>
-                            <a href="">
-                                <button>Download Brochure <img src="../images/IB-program/05/Arrow.png" alt="" width="16px"></button>
+                            <a id="downloadLink" href="../images/IB-program/Altusfx2Level-IB-Structure.pdf" target="_blank" download>
+                                <button id="downloadBtn" disabled title="Please fill the form to download">
+                                    Download Brochure <img src="../images/IB-program/05/Arrow.png" alt="" width="16px">
+                                </button>
                             </a>
                         </div>
                     </div>
+                    <script>
+                        const form = document.getElementById('form');
+                        const result = document.getElementById('result');
+                        const downloadBtn = document.getElementById('downloadBtn');
+
+                        form.addEventListener('submit', function(e) {
+                            e.preventDefault();
+                            const formData = new FormData(form);
+                            const object = Object.fromEntries(formData);
+                            const json = JSON.stringify(object);
+                            result.innerHTML = "Please wait..."
+
+                            fetch('https://api.web3forms.com/submit', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                        'Accept': 'application/json'
+                                    },
+                                    body: json
+                                })
+                                .then(async(response) => {
+                                    let json = await response.json();
+                                    if (json.success) {
+                                        result.innerHTML = "Form submitted successfully";
+
+                                        // Enable the download button
+                                        downloadBtn.disabled = false;
+                                        downloadBtn.removeAttribute("title");
+                                    } else {
+                                        console.log(response);
+                                        result.innerHTML = json.message;
+                                    }
+                                })
+                                .catch(error => {
+                                    console.log(error);
+                                    result.innerHTML = "Something went wrong!";
+                                })
+                                .then(function() {
+                                    form.reset();
+                                    setTimeout(() => {
+                                        result.style.display = "none";
+                                    }, 3000);
+                                });
+                        });
+                    </script>
                 </div>
             </div>
             <!-- <div class="elementor-element elementor-element-dcdf412 e-flex e-con-boxed e-con e-parent" data-id="dcdf412" data-element_type="container">
