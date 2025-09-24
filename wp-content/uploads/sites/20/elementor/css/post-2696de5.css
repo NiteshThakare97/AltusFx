@@ -2874,7 +2874,7 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
     left: -75%;
     width: 50%;
     height: 100%;
-    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background: linear-gradient(120deg, transparent, rgb(160 98 172 / 40%), transparent);
     transform: skewX(-25deg);
     animation: shineEffect 5s infinite;
 }
@@ -2923,20 +2923,22 @@ body:not(.rtl) .elementor-269 .elementor-element.elementor-element-a8eef68 .elem
 #ibprog-sec3-overlayimg img {
     width: 100%;
     /* optional, scale as you need */
-    animation: rotate360 15s linear infinite;
+    /* animation: rotate360 15s linear infinite; */
+    animation: zoomInOut 4s ease-in-out infinite;
     /* slow rotation */
     transform-origin: center center;
     /* rotate from center */
 }
 
-@keyframes rotate360 {
+
+/* @keyframes rotate360 {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
-}
+} */
 
 #ibprog-sec3 h3 {
     font-size: 38px;
